@@ -1,5 +1,12 @@
-{
-  'bic': 'PJCBBY2X',
-  'name': '"Приорбанк" ОАО',
-  'endpoint': 'api.prior.by'
-}
+[
+  {
+    'bic': 'PJCBBY2X',
+    'name': '"Приорбанк" ОАО',
+    'endpoint': 'api.prior.by'
+  },
+  {
+    'bic': 'OLMPBY2X',
+    'name': '"Белгазпромбанк" ОАО',
+    'endpoint': 'api.belgazprombank.by'
+  }
+]
