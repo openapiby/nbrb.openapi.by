@@ -2,11 +2,17 @@
   Access-Control-Allow-Origin: *
   Link: <https://nbrb.netlify.com/openapi.yaml>; rel="api"; title="National FinTech API"
 
+/openapi.yaml
+  Content-Type: application/yaml; charset=utf-8
+
 /atms
   Content-Type: application/json; charset=utf-8
 
 /banks
   Content-Type: application/json; charset=utf-8
+
+/fintech/openapi.yaml
+  Content-Type: application/yaml; charset=utf-8
 
 /fintech/accounts
   Content-Type: application/json; charset=utf-8
