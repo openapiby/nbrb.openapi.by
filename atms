@@ -1,0 +1,24 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [125.6, 10.1]
+    },
+    "properties": {
+      "bic": "OLMPBY2X"
+      "address": "Минский р-н, д. Боровая. 7А"      
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+     "type": "Point",
+     "coordinates": [125.6, 10.1]
+    },
+    "properties": {
+      "bic": "ALFABY2X"
+      "address": "Минск, пр. Независимости, 93"      
+    }
+  }
+]
