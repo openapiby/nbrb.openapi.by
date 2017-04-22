@@ -6,7 +6,7 @@ info:
     #swagger](http://swagger.io/irc/).      For this sample, you can use the api
     key `special-key` to test the authorization     filters.
   version: 0.0.1
-  title: Open Api
+  title: FinTech Open API
   termsOfService: 'http://swagger.io/terms/'
   contact:
     email: apiteam@swagger.io
