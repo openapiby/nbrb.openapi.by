@@ -8,5 +8,10 @@
     'bic': 'OLMPBY2X',
     'name': '"Белгазпромбанк" ОАО',
     'endpoint': 'api.belgazprombank.by'
+  },
+  {
+    'bic': 'ALFABY2X',
+    'name': '"Альфа – банк" ЗАО',
+    'endpoint': 'api.alfabank.by'
   }
 ]
