@@ -3,5 +3,7 @@
   Link: <https://nbrb.netlify.com/openapi.yaml>; rel="api"; title="National FinTech API"
 
 /atms
+  Content-Type: application/json; charset=utf-8
+
 /banks
   Content-Type: application/json; charset=utf-8
