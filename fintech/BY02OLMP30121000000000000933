@@ -1,8 +1,0 @@
-{
-   "bic": "OLMPBY2X",
-   "IBAN": "BY02OLMP30121000000000000933",
-   "balance": {
-    "currency":"BYN",
-    "amount":"0.01"
-    }
- }
