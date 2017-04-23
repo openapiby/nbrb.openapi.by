@@ -50,7 +50,6 @@ paths:
             type: array
             items:
               $ref: '#/definitions/Bank'
-          description: Bank not found
 definitions:
   Bank:
     type: object
