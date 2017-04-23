@@ -38,6 +38,8 @@ paths:
               $ref: '#/definitions/ATM'
   /banks:
     get:
+      tags:
+        - bank
       description: Returns all banks from the system
       produces:
         - application/json
