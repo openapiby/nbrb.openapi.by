@@ -17,7 +17,7 @@
     "url" : "https://nbrb.openapi.by/{version}",
     "variables" : {
       "version" : {
-        "default" : "v12"
+        "default" : "v1"
       }
     }
   } ],
