@@ -10,6 +10,9 @@ info:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 servers:
+# Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/chertby/TheOpenNBRBAPI/1.0.0
   - url: https://nbrb.openapi.by/{version}
     variables:
      version:
