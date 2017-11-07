@@ -13,8 +13,8 @@ servers:
 # Added by API Auto Mocking Plugin
   - description: SwaggerHub API Auto Mocking
     url: https://virtserver.swaggerhub.com/chertby/TheOpenNBRBAPI/1.0.0
-  - description: Test server
-    url: https://nbrb.openapi.by/{version}
+#  - description: Test server
+#    url: https://nbrb.openapi.by/{version}
     variables:
      version:
       default: v1
