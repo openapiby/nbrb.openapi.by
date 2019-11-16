@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAPI.NBRB.Data.Contracts\OpenAPI.NBRB.Data.Contracts.csproj" />
+    <ProjectReference Include="..\OpenAPI.NBRB.Domain.Contracts\OpenAPI.NBRB.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\OpenAPI.NBRB.Domain.Services\OpenAPI.NBRB.Domain.Services.csproj" />
+    <ProjectReference Include="..\OpenAPI.NBRB.Common\OpenAPI.NBRB.Common.csproj" />
+    <ProjectReference Include="..\OpenAPI.NBRB.Data\OpenAPI.NBRB.Data.csproj" />
+    <ProjectReference Include="..\OpenAPI.NBRB.Data.InMemory\OpenAPI.NBRB.Data.InMemory.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MappingProfiles\" />
+  </ItemGroup>
+</Project>

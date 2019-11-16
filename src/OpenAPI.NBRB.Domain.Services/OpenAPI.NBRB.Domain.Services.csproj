@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAPI.NBRB.Domain.Contracts\OpenAPI.NBRB.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\OpenAPI.NBRB.Data.Contracts\OpenAPI.NBRB.Data.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+</Project>

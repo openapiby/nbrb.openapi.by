@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenAPI.NBRB.Data.Contracts\OpenAPI.NBRB.Data.Contracts.csproj" />
+    <ProjectReference Include="..\OpenAPI.NBRB.Data\OpenAPI.NBRB.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="TinyCsvParser" Version="2.5.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Files\banks.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\banks.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
